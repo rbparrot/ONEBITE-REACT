@@ -19,4 +19,4 @@ function printName(person) {
   console.log(name || "person의 값이 없음");
 }
 
-printName();
+printName({ name: "이정환" });
